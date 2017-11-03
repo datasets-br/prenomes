@@ -1,0 +1,90 @@
+{
+ "name": "prenomes",
+ "title": "Prenomes de habitantes do Brasil",
+ "format": "csv",
+ "datapackage_version": "1.0.0-alpha",
+ "last_modified": "2017-11-02",
+ "created": "2017-03-16",
+ "licenses": [
+    {
+      "type": "ODC-PDDL-1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipédia, a enciclopédia livre",
+      "web": "https://pt.wikipedia.org/wiki/Categoria:Nascidos_por_ano",
+      "title": "Nascidos por ano"
+    },
+   {
+      "name": "IBGE",
+      "web": "https://censo2010.ibge.gov.br/nomes/",
+      "title": "Nomes do Brasil"
+   }
+  ],
+  "resources": [
+    {
+      "name": "ibge-censoLast-nomes",
+      "path": "data/ibge-censoLast-nomes.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Nome",
+            "description": "Primeiro nome do habitante, conforme grafia oficial, sem acento, todo em maiúsculas",
+            "type": "string"
+          },
+          {
+            "name": "ate1930",
+            "description": "Numero de habitantes (ou de nascimentos?) com o nome de ~1920 até 1930",
+            "type": "integer"
+          },
+          {
+            "name": "ate1940",
+            "description": "Numero de habitantes em 1940 (ou numero de nascimentos de 1930 até 1940?)",
+            "type": "integer"
+          },
+          {
+            "name": "ate1950",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate1960",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate1970",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate1980",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate1990",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate2000",
+            "description": "x",
+            "type": "integer"
+          },
+          {
+            "name": "ate2010",
+            "description": "x",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "maintainers":[{
+    "name": "Peter Krauss",
+    "web": "https://github.com/datasets-br/public-person"
+  }]
+}
