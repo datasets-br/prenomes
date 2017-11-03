@@ -1,11 +1,11 @@
 # Prenomes dos brasileiros
 
 No Brasil, de acordo com o Censo Demográfico 2010, existem cerca de 200 milhões de habitantes com **mais de 130 mil nomes diferentes**... 
-E estamos falando só do [prenome](https://pt.wikipedia.org/wiki/Prenome) das [pessoas](https://pt.wikipedia.org/wiki/Humano), como Maria, Marco, Carlos ou Joana.
+E estamos falando só da diversidade de primeiros nomes das [pessoas](https://pt.wikipedia.org/wiki/Humano) que habitam o território brasileiro, como Maria, Marco, Carlos ou Joana.
 
 O [IBGE](https://pt.wikipedia.org/wiki/Instituto_Brasileiro_de_Geografia_e_Estatística) é órgão do governo federal responsável pelo censo e pelo levantamento destes nomes, tendo também disponibilizado uma ótima interface de consulta, <https://censo2010.ibge.gov.br/nomes>. 
 
-Os dados brutos, com contabilizações de frequência de nomes a cada censo das últimas sete décadas, podem ser baixados no arquivo [ibge-censoLast-nomes.csv](data/ibge-censoLast-nomes.csv) deste projeto, ou visualiados de forma mais amigável no [*datapackage viewer*](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdatasets-br%2Fprenomes%2Fmaster%2Fdatapackage.json).
+Os dados brutos, com contabilizações de frequência de nomes a cada censo das últimas sete décadas, podem ser baixados no arquivo [ibge-censoLast-nomes.csv](data/ibge-censoLast-nomes.csv) deste repositório, ou visualiados de forma mais amigável no [*datapackage viewer*](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdatasets-br%2Fprenomes%2Fmaster%2Fdatapackage.json).
 
 Estes e outros dados ajudam a avaliar o perfil estatístico dos nomes de cidadãos brasileiros.  O presente repositório é também um complemento da iniciativa "observatório de nomes", que faz parte do [***Observatório de dados*** da Wikiversity](https://pt.wikiversity.org/wiki/Observatório_de_dados).
 
@@ -14,7 +14,7 @@ Estes e outros dados ajudam a avaliar o perfil estatístico dos nomes de cidadã
 Primeiro nome é a primeira palavra do *nome completo* de uma pessoa &mdash; o nome oficial registrado no CPF, RG ou atestado de nascimento.
 
 Alguns nomes, tais como Ana Claudia, Fernando Henrique ou Maria das Dores, possuem mais de uma palavra, de maneira que 
-o conceito mais rigoroso de "nome da frente", que vem antes do *sobrenome*, é designado **prenome**.
+o conceito mais rigoroso de "nome da frente", que vem antes do *sobrenome*, é designado **[prenome](https://pt.wikipedia.org/wiki/Prenome)**.
  
 No Brasil o registro de prenomes está vinculado ao registro oficial dos nomes completos. Como a lingua oficial é o Português, 
 com [seu alfabeto](https://pt.wikipedia.org/wiki/Alfabeto_portugu%C3%AAs), desde 1990, limitado a 26 letras, não há possibilidade de se registrar por exemplo um nome com caracteres do [Katacana](https://pt.wikipedia.org/wiki/Katakana), 
