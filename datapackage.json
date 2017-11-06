@@ -25,8 +25,8 @@
   ],
   "resources": [
     {
-      "name": "ibge-censoLast-nomes",
-      "path": "data/ibge-censoLast-nomes.csv",
+      "name": "nomes-censos-ibge",
+      "path": "data/nomes-censos-ibge.csv",
       "schema": {
         "fields": [
           {
@@ -81,10 +81,53 @@
           }
         ]
       }
+    },
+    {
+      "name": "gr-homofonos",
+      "path": "data/gr-homofonos.csv",
+      "description":"Nomes com mesmo Metaphone e além disso julgados por seu grau de homofonia.",
+      "schema": {
+        "fields": [
+          {
+            "name": "canonico",
+            "description": "Nome dominante (maior totalgeral) do grupo e referencia fonética",
+            "type": "string"
+          },
+          {
+            "name": "nome",
+            "description": "Primeiro nome do habitante, conforme grafia oficial, sem acento, todo em maiúsculas",
+            "type": "string"
+          },
+          {
+            "name": "grau",
+            "description": "Grau de semelhança (1=baixo, som similar em meio a ruído; 2=regionalmente alto; 3=alto em qualquer pronúncia). Subjetivo.",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "gr-semanticos",
+      "path": "data/gr-semanticos.csv",
+      "description":"Nomes relacionados na Wikidata através da propriedade P460.",
+      "schema": {
+        "fields": [
+          {
+            "name": "wdId",
+            "description": "Wikidata-ID do nome dominante (maior totalgeral) do grupo e referência comparativa",
+            "type": "string"
+          },
+          {
+            "name": "nome",
+            "description": "Primeiro nome do habitante, conforme grafia oficial, sem acento, todo em maiúsculas",
+            "type": "string"
+          }
+        ]
+      }
     }
   ],
   "maintainers":[{
     "name": "Peter Krauss",
-    "web": "https://github.com/datasets-br/public-person"
+    "web": "https://github.com/ppkrauss"
   }]
 }
